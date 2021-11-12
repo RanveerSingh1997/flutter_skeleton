@@ -1,9 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
-import 'package:flutter_skeleton/my_application_screen.dart';
-
-import 'app_language.dart';
+import 'package:flutter_skeleton/ui/my_application_screen.dart';
+import 'appTheme/app_language.dart';
 import 'appTheme/app_theme.dart';
+
+
+
+
 
 void main() {
   runApp(MyApp());
@@ -30,7 +33,6 @@ class _MyAppState extends State<MyApp> {
 
   @override
   void initState() {
-    // TODO: implement initState
     super.initState();
     gettingLocale();
   }
@@ -42,8 +44,9 @@ class _MyAppState extends State<MyApp> {
 
   @override
   Widget build(BuildContext context) {
+    var lang = LanguageHelper.of(context);
     return MaterialApp(
-      title: 'TestnTrack',
+      title: "My Application",
       themeMode: ThemeMode.light,
       theme: AppTheme.lightThemeData,
       darkTheme: AppTheme.darkThemeData,

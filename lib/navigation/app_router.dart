@@ -5,10 +5,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_skeleton/data/app_state_manager.dart';
 import 'package:flutter_skeleton/navigation/app_pages.dart';
-import 'package:flutter_skeleton/ui/loginscreen.dart';
-import 'package:flutter_skeleton/ui/network_status_page.dart';
-import 'package:flutter_skeleton/ui/onboard_screen.dart';
-import 'package:flutter_skeleton/ui/splash_screen.dart';
+import 'package:flutter_skeleton/ui/ui.dart';
 
 import 'app_link.dart';
 

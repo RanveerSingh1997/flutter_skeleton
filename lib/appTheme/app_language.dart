@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'dart:convert';
 import 'package:flutter/services.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import '../main.dart';
+import '../../main.dart';
 
 
 class _AppLocalizationsDelegate extends LocalizationsDelegate<LanguageHelper> {
@@ -81,21 +81,4 @@ class LanguageHelper {
   }
 
   String get appName => _translate('appName');
-
-  ///Button of Application Label Defined Here
-  String get btnSendOTP => _translate('sendOTP');
-
-  ///txt Label Of Application
-  String get txtMobileNumber => _translate('mobileNumber');
-
-  ///Labels of Application defined Here
-  String get labelLogin => _translate('login');
-  String get labelVerify => _translate('verify');
-  String get labelAnd => _translate('and');
-  String get labelTermsService => _translate('termsService');
-  String get labelPrivacyPolicy => _translate('privacyPolicy');
-  String get labelAgreeByContinue => _translate('agreeByContinue');
-  String get labelReceiveOTPVerification => _translate('receiveOTPVerification');
-
-
 }

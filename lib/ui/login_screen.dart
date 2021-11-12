@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_skeleton/navigation/app_pages.dart';
 
-import '../app_language.dart';
+import '../appTheme/app_language.dart';
 
 class LoginScreen extends StatelessWidget {
   static MaterialPage page() {
